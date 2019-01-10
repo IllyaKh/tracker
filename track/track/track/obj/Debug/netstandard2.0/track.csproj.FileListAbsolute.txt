@@ -10,3 +10,5 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.pdb
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\ORLOW.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\ORLOW_1.xaml.g.cs

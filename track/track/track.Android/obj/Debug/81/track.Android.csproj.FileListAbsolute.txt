@@ -102,4 +102,6 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Рабочий\Pictures\tracker\track\track\track\bin\Debug\netstandard2.0\track.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\bin\Debug\track.dll.mdb
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\linksrc\track.dll.mdb
