@@ -1,0 +1,12 @@
+C:\Users\Рабочий\Pictures\tracker\track\track\track\bin\Debug\netstandard2.0\track.deps.json
+C:\Users\Рабочий\Pictures\tracker\track\track\track\bin\Debug\netstandard2.0\track.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track\bin\Debug\netstandard2.0\track.pdb
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.csprojAssemblyReference.cache
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.csproj.CoreCompileInputs.cache
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.AssemblyInfoInputs.cache
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.AssemblyInfo.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\track.pdb
