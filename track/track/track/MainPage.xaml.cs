@@ -13,10 +13,12 @@ namespace track
         {
            
             InitializeComponent();
-            Detail = new NavigationPage(new ORLOW())
+             Detail = new NavigationPage(new ORLOW())
             {
                 BarBackgroundColor = Color.FromHex("#1c74da")
             };
+           
+            
             IsPresented = true;
         }
         private void Button1_Click(object sender,EventArgs e)
