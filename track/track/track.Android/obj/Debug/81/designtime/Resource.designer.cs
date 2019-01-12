@@ -26,6 +26,132 @@ namespace track.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Xamarin.Auth.Resource.Animation.slide_in_right = global::track.Droid.Resource.Animation.slide_in_right;
+			global::Xamarin.Auth.Resource.Animation.slide_out_left = global::track.Droid.Resource.Animation.slide_out_left;
+			global::Xamarin.Auth.Resource.Attribute.font = global::track.Droid.Resource.Attribute.font;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderAuthority = global::track.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderCerts = global::track.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderFetchStrategy = global::track.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderFetchTimeout = global::track.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderPackage = global::track.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Auth.Resource.Attribute.fontProviderQuery = global::track.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Auth.Resource.Attribute.fontStyle = global::track.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Auth.Resource.Attribute.fontWeight = global::track.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Auth.Resource.Boolean.abc_action_bar_embed_tabs = global::track.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Auth.Resource.Color.notification_action_color_filter = global::track.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Auth.Resource.Color.notification_icon_bg_color = global::track.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Auth.Resource.Color.notification_material_background_media_default_color = global::track.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Auth.Resource.Color.primary_text_default_material_dark = global::track.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Auth.Resource.Color.ripple_material_light = global::track.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Auth.Resource.Color.secondary_text_default_material_dark = global::track.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Auth.Resource.Color.secondary_text_default_material_light = global::track.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_inset_horizontal_material = global::track.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_inset_vertical_material = global::track.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_padding_horizontal_material = global::track.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_button_padding_vertical_material = global::track.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Auth.Resource.Dimension.compat_control_corner_material = global::track.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Auth.Resource.Dimension.notification_action_icon_size = global::track.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_action_text_size = global::track.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_big_circle_margin = global::track.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Auth.Resource.Dimension.notification_content_margin_start = global::track.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Auth.Resource.Dimension.notification_large_icon_height = global::track.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Auth.Resource.Dimension.notification_large_icon_width = global::track.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Auth.Resource.Dimension.notification_main_column_padding_top = global::track.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Auth.Resource.Dimension.notification_media_narrow_margin = global::track.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Auth.Resource.Dimension.notification_right_icon_size = global::track.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_right_side_padding_top = global::track.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Auth.Resource.Dimension.notification_small_icon_background_padding = global::track.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Auth.Resource.Dimension.notification_small_icon_size_as_large = global::track.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Auth.Resource.Dimension.notification_subtext_size = global::track.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Auth.Resource.Dimension.notification_top_pad = global::track.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Auth.Resource.Dimension.notification_top_pad_large_text = global::track.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Auth.Resource.Drawable.ic_arrow_back = global::track.Droid.Resource.Drawable.ic_arrow_back;
+			global::Xamarin.Auth.Resource.Drawable.notification_action_background = global::track.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg = global::track.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low = global::track.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low_normal = global::track.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_low_pressed = global::track.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_normal = global::track.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Auth.Resource.Drawable.notification_bg_normal_pressed = global::track.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Auth.Resource.Drawable.notification_icon_background = global::track.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Auth.Resource.Drawable.notification_template_icon_bg = global::track.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_template_icon_low_bg = global::track.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Auth.Resource.Drawable.notification_tile_bg = global::track.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Auth.Resource.Drawable.notify_panel_notification_icon_bg = global::track.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Auth.Resource.Id.action0 = global::track.Droid.Resource.Id.action0;
+			global::Xamarin.Auth.Resource.Id.action_container = global::track.Droid.Resource.Id.action_container;
+			global::Xamarin.Auth.Resource.Id.action_divider = global::track.Droid.Resource.Id.action_divider;
+			global::Xamarin.Auth.Resource.Id.action_image = global::track.Droid.Resource.Id.action_image;
+			global::Xamarin.Auth.Resource.Id.action_text = global::track.Droid.Resource.Id.action_text;
+			global::Xamarin.Auth.Resource.Id.actions = global::track.Droid.Resource.Id.actions;
+			global::Xamarin.Auth.Resource.Id.async = global::track.Droid.Resource.Id.async;
+			global::Xamarin.Auth.Resource.Id.blocking = global::track.Droid.Resource.Id.blocking;
+			global::Xamarin.Auth.Resource.Id.cancel_action = global::track.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Auth.Resource.Id.chronometer = global::track.Droid.Resource.Id.chronometer;
+			global::Xamarin.Auth.Resource.Id.end_padder = global::track.Droid.Resource.Id.end_padder;
+			global::Xamarin.Auth.Resource.Id.forever = global::track.Droid.Resource.Id.forever;
+			global::Xamarin.Auth.Resource.Id.icon = global::track.Droid.Resource.Id.icon;
+			global::Xamarin.Auth.Resource.Id.icon_group = global::track.Droid.Resource.Id.icon_group;
+			global::Xamarin.Auth.Resource.Id.info = global::track.Droid.Resource.Id.info;
+			global::Xamarin.Auth.Resource.Id.italic = global::track.Droid.Resource.Id.italic;
+			global::Xamarin.Auth.Resource.Id.line1 = global::track.Droid.Resource.Id.line1;
+			global::Xamarin.Auth.Resource.Id.line3 = global::track.Droid.Resource.Id.line3;
+			global::Xamarin.Auth.Resource.Id.media_actions = global::track.Droid.Resource.Id.media_actions;
+			global::Xamarin.Auth.Resource.Id.normal = global::track.Droid.Resource.Id.normal;
+			global::Xamarin.Auth.Resource.Id.notification_background = global::track.Droid.Resource.Id.notification_background;
+			global::Xamarin.Auth.Resource.Id.notification_main_column = global::track.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Auth.Resource.Id.notification_main_column_container = global::track.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Auth.Resource.Id.right_icon = global::track.Droid.Resource.Id.right_icon;
+			global::Xamarin.Auth.Resource.Id.right_side = global::track.Droid.Resource.Id.right_side;
+			global::Xamarin.Auth.Resource.Id.status_bar_latest_event_content = global::track.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Auth.Resource.Id.text = global::track.Droid.Resource.Id.text;
+			global::Xamarin.Auth.Resource.Id.text2 = global::track.Droid.Resource.Id.text2;
+			global::Xamarin.Auth.Resource.Id.time = global::track.Droid.Resource.Id.time;
+			global::Xamarin.Auth.Resource.Id.title = global::track.Droid.Resource.Id.title;
+			global::Xamarin.Auth.Resource.Id.webview = global::track.Droid.Resource.Id.webview;
+			global::Xamarin.Auth.Resource.Integer.cancel_button_image_alpha = global::track.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Auth.Resource.Integer.status_bar_notification_info_maxnum = global::track.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Auth.Resource.Layout.activity_webview = global::track.Droid.Resource.Layout.activity_webview;
+			global::Xamarin.Auth.Resource.Layout.notification_action = global::track.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Auth.Resource.Layout.notification_action_tombstone = global::track.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Auth.Resource.Layout.notification_media_action = global::track.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Auth.Resource.Layout.notification_media_cancel_action = global::track.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Auth.Resource.Layout.notification_template_big_media = global::track.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Auth.Resource.Layout.notification_template_big_media_custom = global::track.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Auth.Resource.Layout.notification_template_big_media_narrow = global::track.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Auth.Resource.Layout.notification_template_big_media_narrow_custom = global::track.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Auth.Resource.Layout.notification_template_custom_big = global::track.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Auth.Resource.Layout.notification_template_icon_group = global::track.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Auth.Resource.Layout.notification_template_lines_media = global::track.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Auth.Resource.Layout.notification_template_media = global::track.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Auth.Resource.Layout.notification_template_media_custom = global::track.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Auth.Resource.Layout.notification_template_part_chronometer = global::track.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Auth.Resource.Layout.notification_template_part_time = global::track.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Auth.Resource.String.status_bar_notification_info_overflow = global::track.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Auth.Resource.String.title_activity_webview = global::track.Droid.Resource.String.title_activity_webview;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Info = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Media = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Time = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Title = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Auth.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::track.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Auth.Resource.Style.Widget_Compat_NotificationActionContainer = global::track.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Auth.Resource.Style.Widget_Compat_NotificationActionText = global::track.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily = global::track.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderAuthority = global::track.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderCerts = global::track.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::track.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::track.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderPackage = global::track.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Auth.Resource.Styleable.FontFamily_fontProviderQuery = global::track.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont = global::track.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_font = global::track.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontStyle = global::track.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Auth.Resource.Styleable.FontFamilyFont_fontWeight = global::track.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::track.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -73,6 +199,12 @@ namespace track.Droid
 			
 			// aapt resource value: 0x7F01000E
 			public const int design_snackbar_out = 2130771982;
+			
+			// aapt resource value: 0x7F080018
+			public const int slide_in_right = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int slide_out_left = 2131230745;
 			
 			// aapt resource value: 0x7F01000F
 			public const int tooltip_enter = 2130771983;
@@ -2366,6 +2498,9 @@ namespace track.Droid
 			// aapt resource value: 0x7F010002
 			public const int heart-health = 2130771970;
 			
+			// aapt resource value: 0x7F010306
+			public const int ic_arrow_back = 2130772742;
+			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
 			
@@ -3528,6 +3663,9 @@ namespace track.Droid
 			// aapt resource value: 0x7F0C007D
 			public const int volume_item_container = 2131492989;
 			
+			// aapt resource value: 0x7F020174
+			public const int webview = 2130837876;
+			
 			// aapt resource value: 0x7F0C0090
 			public const int wrap_content = 2131493008;
 			
@@ -3692,6 +3830,9 @@ namespace track.Droid
 			
 			// aapt resource value: 0x7F0F001A
 			public const int abc_select_dialog_material = 2131689498;
+			
+			// aapt resource value: 0x7F030070
+			public const int activity_webview = 2130903152;
 			
 			// aapt resource value: 0x7F0F001B
 			public const int design_bottom_navigation_item = 2131689499;
@@ -4033,6 +4174,9 @@ namespace track.Droid
 			
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
+			
+			// aapt resource value: 0x7F090062
+			public const int title_activity_webview = 2131296354;
 			
 			static String()
 			{

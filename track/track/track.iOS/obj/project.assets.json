@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -129,7 +141,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Auth": "1.6.0.4",
+          "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
           "bin/placeholder/track.dll": {}
@@ -140,6 +153,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -267,7 +292,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Auth": "1.6.0.4",
+          "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
           "bin/placeholder/track.dll": {}
@@ -278,6 +304,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -405,7 +443,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Auth": "1.6.0.4",
+          "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
           "bin/placeholder/track.dll": {}
@@ -416,6 +455,18 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Xamarin.Auth/1.6.0.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Json"
+        ],
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Auth.dll": {}
+        }
+      },
       "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
@@ -543,7 +594,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.4.0.1008975"
+          "Xamarin.Auth": "1.6.0.4",
+          "Xamarin.Forms": "3.4.0.1009999"
         },
         "compile": {
           "bin/placeholder/track.dll": {}
@@ -555,6 +607,37 @@
     }
   },
   "libraries": {
+    "Xamarin.Auth/1.6.0.4": {
+      "sha512": "Z29LQBGqx9+QOJNU9ZHjuQt4L4S4z0k51IzKI9J3UGsNOd1w7/SqBBHvkGs799ImcR0B4ft8HpzwBpvwHggmUA==",
+      "type": "package",
+      "path": "xamarin.auth/1.6.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Xamarin.Auth.dll",
+        "lib/Xamarin.iOS10/Xamarin.Auth.dll",
+        "lib/netstandard1.0/Xamarin.Auth.dll",
+        "lib/netstandard1.6/Xamarin.Auth.dll",
+        "lib/portable-net45 wp8 wpa81 win8 MonoAndroid10 MonoTouch10 XamarinIOS10/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.dll",
+        "lib/uap10.0/Xamarin.Auth.pri",
+        "lib/uap10.0/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/uap10.0/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "lib/win81/Xamarin.Auth.dll",
+        "lib/win81/Xamarin.Auth.pri",
+        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/win81/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/win81/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "lib/wp8/Xamarin.Auth.dll",
+        "lib/wpa81/Xamarin.Auth.dll",
+        "lib/wpa81/Xamarin.Auth.pri",
+        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xaml",
+        "lib/wpa81/Xamarin.Auth/WebAuthenticatorPage.xbf",
+        "lib/wpa81/Xamarin.Auth/Xamarin.Auth.xr.xml",
+        "xamarin.auth.1.6.0.4.nupkg.sha512",
+        "xamarin.auth.nuspec"
+      ]
+    },
     "Xamarin.Forms/3.4.0.1008975": {
       "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
@@ -768,5 +851,20 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Обнаружено понижение версии пакета Xamarin.Forms с 3.4.0.1009999 на 3.4.0.1008975. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n track.iOS -> track -> Xamarin.Forms (>= 3.4.0.1009999) \r\n track.iOS -> Xamarin.Forms (>= 3.4.0.1008975)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
 }

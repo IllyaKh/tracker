@@ -5,6 +5,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Json.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Xml.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\track.dll
@@ -16,6 +17,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Compat.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.UI.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.CustomTabs.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Design.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Fragment.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Media.Compat.dll
@@ -27,6 +29,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.Palette.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.v7.RecyclerView.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Android.Support.Vector.Drawable.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Auth.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll

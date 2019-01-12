@@ -4,9 +4,13 @@
              x:Class="track.RegistarionPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Entry Placeholder="Username" />
+            <Entry IsPassword="true" Placeholder="Password" />
+            <Button Text="Login" HeightRequest="50" />
+            <Button Text="Google"  Image="GOOGLE.png" HeightRequest="50" />
+        
         </StackLayout>
+
+        
     </ContentPage.Content>
 </ContentPage>
