@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="track.RegistarionPage">
+             x:Class="track.RegistarionPage"
+             Title="RegPage">
     <ContentPage.Content>
         <StackLayout>
-            <Entry Placeholder="Username" />
-            <Entry IsPassword="true" Placeholder="Password" />
-            <Button Text="Login" HeightRequest="50" />
-            <Button Text="Google"  Image="GOOGLE.png" HeightRequest="50" />
+            <Entry x:Name="Entry1" Placeholder="Username" />
+            <Entry x:Name="Entry2" IsPassword="true" Placeholder="Password" />
+            <Button Clicked="ServClick" Text="Login" HeightRequest="50" />
+         
+            
         
         </StackLayout>
 

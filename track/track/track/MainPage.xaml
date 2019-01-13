@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:track"
              x:Class="track.MainPage"
              Title="MyApp">
-
+    
     
 
     <MasterDetailPage.Master>

@@ -3,9 +3,12 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Java.Interop.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\mscorlib.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Core.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Json.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Net.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Xml.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Xml.Linq.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\track.dll
@@ -34,10 +37,8 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.dll
-C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Net.Http.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Runtime.Serialization.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.ServiceModel.Internals.dll
-C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Mono.Security.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\netstandard.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Data.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Numerics.dll
@@ -46,3 +47,4 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.IO.Compression.FileSystem.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.ComponentModel.Composition.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Web.Services.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Mono.Security.dll

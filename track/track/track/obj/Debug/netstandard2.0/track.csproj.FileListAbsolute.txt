@@ -13,4 +13,5 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\ORLOW.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\ORLOW_1.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\RegistarionPage.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\ProviderLoginPage.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\XamlC.stamp
