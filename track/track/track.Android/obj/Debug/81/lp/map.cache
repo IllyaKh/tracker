@@ -1,5 +1,15 @@
 FormsViewGroup
+Microcharts.Forms
 Newtonsoft.Json
+SkiaSharp
+SkiaSharp.Views.Android
+SkiaSharp.Views.Forms
+SQLite-net
+SQLitePCLRaw.batteries_green
+SQLitePCLRaw.batteries_v2
+SQLitePCLRaw.core
+SQLitePCLRaw.lib.e_sqlite3
+SQLitePCLRaw.provider.e_sqlite3
 System.Runtime
 track
 Xamarin.Android.Arch.Core.Common
@@ -28,3 +38,4 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Reflection.Extensions

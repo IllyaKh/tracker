@@ -1,0 +1,30 @@
+﻿<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:track"
+    xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms" 
+    x:Class="track.ORLOW">
+    
+    <StackLayout>
+
+        <microcharts:ChartView x:Name="Sugar" HeightRequest="150"/>
+        <Grid HeightRequest ="30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0"></Button>
+            <Button Grid.Column="1"></Button>
+            <Button Grid.Column="2"></Button>
+        </Grid>
+        
+       
+        <Slider x:Name="fontSizeSlider"
+                    Maximum="48"
+                    Minimum="1"
+                    Value="{Binding FontSize}" />
+        
+    </StackLayout>
+
+</ContentPage>

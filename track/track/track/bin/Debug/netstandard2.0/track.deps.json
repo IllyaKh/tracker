@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "e8a7bb955aeae3057aa93d27dc370a0984af2c31"
+    "signature": "fee27593bc017a2962f024a96ef1b961ab746dda"
   },
   "compilationOptions": {},
   "targets": {
@@ -9,13 +9,26 @@
     ".NETStandard,Version=v2.0/": {
       "track/1.0.0": {
         "dependencies": {
+          "Microcharts.Forms": "0.6.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
           "Xamarin.Auth": "1.6.0.4",
-          "Xamarin.Forms": "3.4.0.1009999"
+          "Xamarin.Forms": "3.4.0.1009999",
+          "sqlite-net-pcl": "1.5.231"
         },
         "runtime": {
           "track.dll": {}
+        }
+      },
+      "Microcharts.Forms/0.6.1": {
+        "dependencies": {
+          "SkiaSharp.Views.Forms": "1.59.1"
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/Microcharts.Forms.dll": {
+            "assemblyVersion": "1.0.6429.41035",
+            "fileVersion": "1.0.6429.41035"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -29,6 +42,65 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "SkiaSharp/1.59.1": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.59.0.0",
+            "fileVersion": "1.59.1.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Forms/1.59.1": {
+        "dependencies": {
+          "SkiaSharp": "1.59.1",
+          "Xamarin.Forms": "3.4.0.1009999"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.Views.Forms.dll": {
+            "assemblyVersion": "1.59.0.0",
+            "fileVersion": "1.59.1.0"
+          }
+        }
+      },
+      "sqlite-net-pcl/1.5.231": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.bundle_green": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLite-net.dll": {
+            "assemblyVersion": "1.5.231.0",
+            "fileVersion": "1.5.231.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.bundle_green/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "SQLitePCLRaw.core": "1.1.11"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_green.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard1.1/SQLitePCLRaw.batteries_v2.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SQLitePCLRaw.core/1.1.11": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLitePCLRaw.core.dll": {
+            "assemblyVersion": "1.1.11.121",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -64,6 +136,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Microcharts.Forms/0.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4A4SZ1IDw6AyEi7pGBl/OiqJOC0uIkWYh8kGFoJH1fEJPDmqDTw5aFeMJXjf0hDy2xFQiCju6B/V1AlE7YCLRA==",
+      "path": "microcharts.forms/0.6.1",
+      "hashPath": "microcharts.forms.0.6.1.nupkg.sha512"
+    },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -84,6 +163,41 @@
       "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "SkiaSharp/1.59.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Pyq7tiXrysvxIlY2ddD/WSFR1EA0qCwMQIYQpCMVWKdA8Zy0aGqh5zcLALsR6rMlc3W4/0NdZR+B7xDtGuP2rg==",
+      "path": "skiasharp/1.59.1",
+      "hashPath": "skiasharp.1.59.1.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Forms/1.59.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hmCjxrKTjFxSYP1Hmev1bh1oBCSsSN4O0ZZXnyr1YAkRXXqIkliROrfizuXu5kVygvbRc+SdryA3tJ7Zn+uIqw==",
+      "path": "skiasharp.views.forms/1.59.1",
+      "hashPath": "skiasharp.views.forms.1.59.1.nupkg.sha512"
+    },
+    "sqlite-net-pcl/1.5.231": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
+      "path": "sqlite-net-pcl/1.5.231",
+      "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLitePCLRaw.bundle_green/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HOD1/Jg9VZtrOyPUCD9reQOXHq4r+fNe24qw5nghuiUcKch+9jePeRpt6MqGGUFhg2KW89KvE/RFlhpbfF8pKA==",
+      "path": "sqlitepclraw.bundle_green/1.1.11",
+      "hashPath": "sqlitepclraw.bundle_green.1.1.11.nupkg.sha512"
+    },
+    "SQLitePCLRaw.core/1.1.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bWiOso10I1vDuc5rbzT69LQT0+oXfYnoqx8vKJ8zim/CJ4ytSd20QNTE/FE0dvWEgXGnvDp7gGJFu6PeWnhx9g==",
+      "path": "sqlitepclraw.core/1.1.11",
+      "hashPath": "sqlitepclraw.core.1.1.11.nupkg.sha512"
     },
     "Xamarin.Auth/1.6.0.4": {
       "type": "package",

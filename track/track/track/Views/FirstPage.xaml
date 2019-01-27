@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+         
+             x:Class="track.FirstPage">
+  <ContentPage.Content>
+    <StackLayout>
+      
+
+      <Image x:Name="Image1" VerticalOptions="Start" HorizontalOptions="FillAndExpand" Source="heart-health.png">
+      </Image>
+      <Label x:Name="AdminPanel" Text="Diabetic Log"  FontAttributes="Bold" FontFamily="Times New Roman" Opacity="80" HorizontalOptions="CenterAndExpand" FontSize="30">
+
+      </Label>
+      <Button  Clicked="SignInButton_Clicked" Text="Sign in"  Margin="0,140,0,0"   BackgroundColor="#1c74da" FontSize="Small" TextColor="White" FontFamily="Times New Roman Italic" ></Button>
+      <Button  Clicked="RegButton_Clicked" Text="I`ve not registered yet" Margin="0,0,0,10"  BackgroundColor="Gray" FontSize="Small" TextColor="White"  FontFamily="Times New Roman Italic" ></Button>
+      <Label VerticalOptions="End" HorizontalOptions="Center" >
+        <Label.FormattedText>
+          <FormattedString>
+            <Span Text="Please, read our private policy. "  FontSize="Micro" TextColor="#D8D8D8" >
+              <Span.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding ClickCommand}"
+                                      CommandParameter="https://xamarin.com" />
+              </Span.GestureRecognizers>
+            </Span>
+          </FormattedString>
+        </Label.FormattedText>
+      </Label>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
