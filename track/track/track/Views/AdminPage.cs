@@ -15,9 +15,10 @@ namespace track.Views
         private Entry _nameEntry;
         private Entry _surnameEntry;
         private Entry _passwordEntry;
-        private Entry _loginEntry;
+        private Entry _loginEntry;   
         private Entry _passwordEntryR;
         private readonly Button _updButton;
+        private readonly Button _delButton;
         Models.User _user = new Models.User();
         private ListView _listView;
         private readonly string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDB.db3");
@@ -31,11 +32,7 @@ namespace track.Views
 
             _listView.ItemsSource = db.Table<Models.User>().OrderBy(x => x.Name).ToList();
             
-            stackLayout.Children.Add(_listView);
-            ShowContent(stackLayout);
-
-
-           
+            stackLayout.Children.Add(_listView);         
 
             _loginEntry = new Entry
             {
@@ -72,24 +69,42 @@ namespace track.Views
             };
             stackLayout.Children.Add(_updButton);
             _updButton.Clicked += _updButton_Clicked;
+
+            _delButton = new Button
+            {
+                Text = "Delete",
+                BackgroundColor = Color.FromHex("1c74da")
+            };
+            stackLayout.Children.Add(_delButton);
+            _delButton.Clicked += _delButton_Clicked;
             Content = stackLayout;
+            
         }
 
         private async void _updButton_Clicked(object sender, EventArgs e)
         {
             var db = new SQLiteConnection(_dbPath);
-            Models.User user = new Models.User()
+            Models.User _user = new Models.User()
             {
                 Name = _nameEntry.Text,
                 Password = _passwordEntry.Text
             };
-            db.Update(user);
+            db.Update(_user);
             await Navigation.PopAsync();
         }
 
         private void ShowContent(StackLayout stackLayout)
         {
             Content = stackLayout;
+        }
+
+        private async void _delButton_Clicked(object sender,EventArgs e)
+        {
+            Models.User _user = new Models.User();
+            var db = new SQLiteConnection(_dbPath);
+            db.Table<Models.User>().Delete(x => x.Id == _user.Id);
+          //  await Navigation.PopAsync();
+
         }
 
         private void _listView_ItemSelected(object sender, SelectedItemChangedEventArgs e)

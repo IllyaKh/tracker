@@ -41,7 +41,7 @@ namespace track
                 Command = new Command(async () =>
                 {
                     await DisplayAlert("Admin Panel", "Тут можно все сломать.", "НУ ПОГНАЛИ");
-                    await Navigation.PushAsync(new AdminPage());
+                    await Navigation.PushAsync(new Show());
                 })
             });
         }
