@@ -23,7 +23,7 @@ namespace track.Views
         bool IsFull();
         bool IsLength();
     }
-
+ 
  
     public class RegistrationPage : ContentPage, ISame, IFull,ICorrect
     {
@@ -61,12 +61,14 @@ namespace track.Views
             text[2] = "Continue";
             return text;
         }
+
         public bool IsSame()
         {
             if (_passwordEntry.Text == _passwordEntryR.Text)
                 return true;
             return false;
         }
+
         private async void _regButton_Clicked(object sender, EventArgs e)
         {
             string[] text = new string[3];
@@ -95,9 +97,7 @@ namespace track.Views
             db.Insert(user);
             await DisplayAlert(null, user.Name + "with ID: " + user.Id + " successfully signed up!", "All right");
             await Navigation.PopAsync();
-        }
-
-      
+        }      
 
         public bool IsFull()
         {

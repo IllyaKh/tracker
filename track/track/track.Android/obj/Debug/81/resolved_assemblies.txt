@@ -5,6 +5,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Mono.Android.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\mscorlib.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\PropertyChanged.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SkiaSharp.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SkiaSharp.Views.Android.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SkiaSharp.Views.Forms.dll

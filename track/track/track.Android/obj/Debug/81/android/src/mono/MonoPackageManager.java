@@ -110,6 +110,7 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Microcharts.Forms.dll",
 		"Newtonsoft.Json.dll",
+		"PropertyChanged.dll",
 		"SkiaSharp.dll",
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",
