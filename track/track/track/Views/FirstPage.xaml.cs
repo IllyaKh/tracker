@@ -11,13 +11,16 @@ using System.Collections.ObjectModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using track.Views;
+using SQLite;
+using System.IO;
 
 namespace track
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class FirstPage : ContentPage
 	{
-		public FirstPage ()
+        private readonly string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDB.db3");
+        public FirstPage ()
 		{
 			InitializeComponent ();
             Image1.Source = ImageSource.FromResource("track.heart-health.png");
@@ -36,12 +39,15 @@ namespace track
         }
         private void AdminPanel_Clicked()
         {
+
             AdminPanel.GestureRecognizers.Add(new TapGestureRecognizer()
             {
                 Command = new Command(async () =>
                 {
-                    await DisplayAlert("Admin Panel", "Тут можно все сломать.", "НУ ПОГНАЛИ");
-                    await Navigation.PushAsync(new Show());
+                    var db = new SQLiteConnection(_dbPath);
+                    var existingItem = db.Get<Models.User>(1);
+                    await DisplayAlert("Admin Panel", existingItem.ToString(), "НУ ПОГНАЛИ");
+                    await Navigation.PushAsync(new AdminPage());
                 })
             });
         }

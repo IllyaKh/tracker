@@ -29,11 +29,12 @@ namespace track.Views
             this.Title = "AdminPage";
             StackLayout stackLayout = new StackLayout();
             _listView = new ListView();
-
-            _listView.ItemsSource = db.Table<Models.User>().OrderBy(x => x.Name).ToList();
             
-            stackLayout.Children.Add(_listView);         
-
+            
+            _listView.ItemsSource = db.Table<Models.User>().OrderBy(user => user.Name).ToList().ToString();
+            
+            stackLayout.Children.Add(_listView);
+            Content = stackLayout;
             _loginEntry = new Entry
             {
                 Keyboard = Keyboard.Text,
@@ -77,7 +78,7 @@ namespace track.Views
             };
             stackLayout.Children.Add(_delButton);
             _delButton.Clicked += _delButton_Clicked;
-            Content = stackLayout;
+           
             
         }
 
@@ -102,8 +103,11 @@ namespace track.Views
         {
             Models.User _user = new Models.User();
             var db = new SQLiteConnection(_dbPath);
+           
+
+
             db.Table<Models.User>().Delete(x => x.Id == _user.Id);
-          //  await Navigation.PopAsync();
+            await Navigation.PopAsync();
 
         }
 

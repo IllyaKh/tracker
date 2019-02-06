@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "fee27593bc017a2962f024a96ef1b961ab746dda"
+    "signature": "92520201130e73cfc277eeefbd20b164846be355"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,6 +12,7 @@
           "Microcharts.Forms": "0.6.1",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
+          "PropertyChanged.Fody": "2.6.0",
           "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999",
           "sqlite-net-pcl": "1.5.231"
@@ -20,6 +21,7 @@
           "track.dll": {}
         }
       },
+      "Fody/3.3.2": {},
       "Microcharts.Forms/0.6.1": {
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.59.1"
@@ -42,6 +44,18 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "12.0.0.0",
             "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "PropertyChanged.Fody/2.6.0": {
+        "dependencies": {
+          "Fody": "3.3.2",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.0/PropertyChanged.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
           }
         }
       },
@@ -136,6 +150,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Fody/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIvZdIiqg1SLZ01PHeZBwyVkBPJRHjJ5qb3VPyogqhHd1UxEV0w2AoVC4y5p6jzBAlSMauDZ0Dcu1NM3Mw9k+g==",
+      "path": "fody/3.3.2",
+      "hashPath": "fody.3.3.2.nupkg.sha512"
+    },
     "Microcharts.Forms/0.6.1": {
       "type": "package",
       "serviceable": true,
@@ -163,6 +184,13 @@
       "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
       "path": "newtonsoft.json/12.0.1",
       "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "PropertyChanged.Fody/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NSFceIyxFfVMctN3OWqZ7lL+ZcXq4uYFJ/XwXRhmMfhXTxs5mmg+UoRCLXPTqaXDJlldXDOSgnWTKTPqX5/0zQ==",
+      "path": "propertychanged.fody/2.6.0",
+      "hashPath": "propertychanged.fody.2.6.0.nupkg.sha512"
     },
     "SkiaSharp/1.59.1": {
       "type": "package",

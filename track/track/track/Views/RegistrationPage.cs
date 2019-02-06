@@ -96,6 +96,7 @@ namespace track.Views
             };
             db.Insert(user);
             await DisplayAlert(null, user.Name + "with ID: " + user.Id + " successfully signed up!", "All right");
+
             await Navigation.PopAsync();
         }      
 
