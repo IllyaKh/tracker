@@ -45,7 +45,7 @@ namespace track
                 Command = new Command(async () =>
                 {
                     var db = new SQLiteConnection(_dbPath);
-                    var existingItem = db.Get<Models.User>(1);
+                    var existingItem = db.Get<Models.User>(2);
                     await DisplayAlert("Admin Panel", existingItem.ToString(), "НУ ПОГНАЛИ");
                     await Navigation.PushAsync(new AdminPage());
                 })

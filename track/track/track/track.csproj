@@ -10,6 +10,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Page1.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\Page1.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="heart-health.png" />
   </ItemGroup>
 
@@ -28,9 +36,6 @@
 
   <ItemGroup>
     <EmbeddedResource Update="Views\FirstPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Views\LoginPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ORLOW.xaml">

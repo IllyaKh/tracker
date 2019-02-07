@@ -44,6 +44,7 @@ namespace track.Views
 
             _nameEntry = new Entry
             {
+                
                 Keyboard = Keyboard.Text,
                 Placeholder = "Your name"
             };

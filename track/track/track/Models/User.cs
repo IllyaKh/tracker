@@ -16,7 +16,7 @@ namespace track.Models
 
         public override string ToString()
         {
-            return (this.Surname + "(" + this.Name+ ")");
+            return (this.Login + ": " + this.Password);
         }
         public string GetLogin()
         {
