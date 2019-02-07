@@ -73,7 +73,7 @@ namespace track.Views
                 if (db.Get<Models.User>(i).GetLogin() == _loginEntry.Text)
                     return i;                    
             }
-            return 2;
+            return -1;
         }
         private bool ValidPass(int lockId)
         {
@@ -87,7 +87,7 @@ namespace track.Views
 
         private async void _signInButton_Clicked(object sender, EventArgs e)
         {
-
+            var db = new SQLiteConnection(_dbPath);
             string[] text = new string[3];
             text = RegistrationPass();
             if (text[1] == "Retry")
@@ -99,16 +99,16 @@ namespace track.Views
             if (curId != -1)
             {
                 if (ValidPass(curId))
-                    await DisplayAlert("OK", "OK", "ok");
+                    await DisplayAlert("Success", db.Get<Models.User>(curId).GetLogin() + " " + db.Get<Models.User>(curId).GetPassword(), "OK!");
                 else
                     await DisplayAlert("hui", "hui", "hui");
             }
             else
-                await DisplayAlert("hu1i", "h1ui", "hu1i");
+                await DisplayAlert("hui1", "hui1", "hui1");
 
 
 
-             
+
 
         }
 
