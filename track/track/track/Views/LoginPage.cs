@@ -99,7 +99,11 @@ namespace track.Views
             if (curId != -1)
             {
                 if (ValidPass(curId))
+                {
+
                     await DisplayAlert("Success", db.Get<Models.User>(curId).GetLogin() + " " + db.Get<Models.User>(curId).GetPassword(), "OK!");
+                    await Navigation.PushAsync(new Views.MainLogPage());
+                }
                 else
                     await DisplayAlert("hui", "hui", "hui");
             }
