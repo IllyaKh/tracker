@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "92520201130e73cfc277eeefbd20b164846be355"
+    "signature": "37e9c769eb7f0ab935ae5e45d2e4043ce1310644"
   },
   "compilationOptions": {},
   "targets": {
@@ -13,6 +13,7 @@
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.1",
           "PropertyChanged.Fody": "2.6.0",
+          "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Auth": "1.6.0.4",
           "Xamarin.Forms": "3.4.0.1009999",
           "sqlite-net-pcl": "1.5.231"
@@ -88,6 +89,18 @@
           "lib/netstandard1.1/SQLite-net.dll": {
             "assemblyVersion": "1.5.231.0",
             "fileVersion": "1.5.231.0"
+          }
+        }
+      },
+      "SQLiteNetExtensions/2.1.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "sqlite-net-pcl": "1.5.231"
+        },
+        "runtime": {
+          "lib/netstandard1.1/SQLiteNetExtensions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
@@ -212,6 +225,13 @@
       "sha512": "sha512-Sy+K+Wm2RZ+4b1uLHsaXvfR92Or71XxPXa2Id6msSOVkZKh+c+PUk/HQOAgxyhm3lhvysL0mK6Gd6mI69NJ9AA==",
       "path": "sqlite-net-pcl/1.5.231",
       "hashPath": "sqlite-net-pcl.1.5.231.nupkg.sha512"
+    },
+    "SQLiteNetExtensions/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-X1ufKPcyQM7ExzdmdunHHSv+R3Pi7xeT9OG1wrPo6K2IR2Ku+VuEClQ1YlbxwfaKM4+NR4Ut2g0gHbJ5dllleA==",
+      "path": "sqlitenetextensions/2.1.0",
+      "hashPath": "sqlitenetextensions.2.1.0.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_green/1.1.11": {
       "type": "package",

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SQLiteNetExtensions;
 
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
@@ -45,9 +46,11 @@ namespace track
                 Command = new Command(async () =>
                 {
                     var db = new SQLiteConnection(_dbPath);
-                    var existingItem = db.Get<Models.User>(2);
-                    await DisplayAlert("Admin Panel", existingItem.ToString(), "НУ ПОГНАЛИ");
+                    var existingItem = db.Get<Models.User>(1);
+                    var test = db.Get<Models.Data>(1);
+                    await DisplayAlert("Admin Panel", existingItem.ToString()+" " + test.ToString(2) , "НУ ПОГНАЛИ");
                     await Navigation.PushAsync(new AdminPage());
+
                 })
             });
         }

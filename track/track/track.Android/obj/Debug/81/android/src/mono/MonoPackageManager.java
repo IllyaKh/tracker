@@ -115,6 +115,7 @@ class MonoPackageManager_Resources {
 		"SkiaSharp.Views.Android.dll",
 		"SkiaSharp.Views.Forms.dll",
 		"SQLite-net.dll",
+		"SQLiteNetExtensions.dll",
 		"SQLitePCLRaw.batteries_green.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",

@@ -10,6 +10,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SkiaSharp.Views.Android.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SkiaSharp.Views.Forms.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SQLite-net.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SQLiteNetExtensions.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_green.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SQLitePCLRaw.batteries_v2.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\SQLitePCLRaw.core.dll
@@ -70,4 +71,6 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Threading.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Globalization.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.Resources.ResourceManager.dll
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\System.ObjectModel.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\android\assets\Mono.Security.dll

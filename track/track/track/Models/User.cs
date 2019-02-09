@@ -8,7 +8,7 @@ namespace track.Models
     public class User
     {
         [PrimaryKey]
-        public int Id { get; set; }
+        public int Id { get;set; }
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Password { get; set; }
@@ -16,7 +16,7 @@ namespace track.Models
 
         public override string ToString()
         {
-            return (this.Login + ": " + this.Password);
+            return $"{this.Login}: {this.Password}";
         }
         public string GetLogin()
         {

@@ -14,6 +14,7 @@
                     <Button Text="Orlow" Clicked="Button1_Click"></Button>
                     <Button Text="Orlow_1" Clicked="Button2_Click"></Button>
                 </StackLayout>
+                </ContentPage.Content>
         </ContentPage>
     </MasterDetailPage.Master>
     
