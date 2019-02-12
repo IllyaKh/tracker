@@ -19,11 +19,12 @@ namespace track.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage, IFull
     {
+        public static int curId;
         readonly string _dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "myDB.db3");
         private Entry _passwordEntry;
         private Entry _loginEntry;
         private readonly Button _signInButton;
-
+        
 
         public LoginPage()
         {
@@ -64,6 +65,10 @@ namespace track.Views
             return false;
 
         }
+         internal int _getCur()
+        {
+            return curId;
+        }
         private int FindId()
         {
             var db = new SQLiteConnection(_dbPath);
@@ -95,20 +100,20 @@ namespace track.Views
                 await DisplayAlert(text[0], text[1], text[2]);
                 return;
             }
-            int curId = FindId();
+            curId = FindId();
             if (curId != -1)
             {
                 if (ValidPass(curId))
                 {
 
                     await DisplayAlert("Success", db.Get<Models.User>(curId).GetLogin() + " " + db.Get<Models.User>(curId).GetPassword(), "OK!");
-                    await Navigation.PushAsync(new Views.MainLogPage());
+                    await Navigation.PushAsync(new MainPageD());
                 }
                 else
-                    await DisplayAlert("hui", "hui", "hui");
+                    await DisplayAlert("Error", "Password is not valid", "Retry");
             }
             else
-                await DisplayAlert("hui1", "hui1", "hui1");
+                await DisplayAlert("Error", "Login isn`t correct", "Retry");
 
 
 

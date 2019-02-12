@@ -82,7 +82,7 @@ namespace track.Views
            
             
         }
-
+       
         private async void _updButton_Clicked(object sender, EventArgs e)
         {
             var db = new SQLiteConnection(_dbPath);

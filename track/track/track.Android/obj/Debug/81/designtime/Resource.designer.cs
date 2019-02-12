@@ -2498,8 +2498,11 @@ namespace track.Droid
 			// aapt resource value: 0x7F010002
 			public const int heart-health = 2130771970;
 			
-			// aapt resource value: 0x7F010306
-			public const int ic_arrow_back = 2130772742;
+			// aapt resource value: 0x7F010003
+			public const int history = 2130771971;
+			
+			// aapt resource value: 0x7F010311
+			public const int ic_arrow_back = 2130772753;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -3032,6 +3035,9 @@ namespace track.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
+			// aapt resource value: 0x7F010004
+			public const int Log = 2130771972;
+			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
 			
@@ -3130,6 +3136,15 @@ namespace track.Droid
 			
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
+			
+			// aapt resource value: 0x7F010005
+			public const int off = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int settings = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int statistic = 2130771975;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

@@ -10,10 +10,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\current.xaml.cs" />
     <Compile Remove="Views\Page1.xaml.cs" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Remove="Views\current.xaml" />
     <EmbeddedResource Remove="Views\Page1.xaml" />
   </ItemGroup>
 
@@ -39,7 +41,19 @@
     <EmbeddedResource Update="Views\FirstPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainLogPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPageD.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Update="Views\ORLOW.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Settings.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Statistic.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

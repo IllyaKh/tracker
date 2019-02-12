@@ -12,3 +12,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\ORLOW.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\MainLogPage.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\MainPageD.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\Settings.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\Statistic.xaml.g.cs
