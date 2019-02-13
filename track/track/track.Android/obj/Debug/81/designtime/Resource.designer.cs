@@ -2501,8 +2501,8 @@ namespace track.Droid
 			// aapt resource value: 0x7F010003
 			public const int history = 2130771971;
 			
-			// aapt resource value: 0x7F010311
-			public const int ic_arrow_back = 2130772753;
+			// aapt resource value: 0x7F010312
+			public const int ic_arrow_back = 2130772754;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -3151,6 +3151,9 @@ namespace track.Droid
 			
 			// aapt resource value: 0x7F09006A
 			public const int tooltip_frame_light = 2131296362;
+			
+			// aapt resource value: 0x7F010008
+			public const int user = 2130771976;
 			
 			static Drawable()
 			{

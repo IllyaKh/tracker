@@ -83,14 +83,14 @@ namespace track.Views
             
             var db = new SQLiteConnection(_dbPath);
             db.CreateTable<Models.User>();
-            db.CreateTable<Models.Data>();
+          //  db.CreateTable<Models.Data>();
             var maxPK = db.Table<Models.User>().OrderByDescending(c => c.Id).FirstOrDefault();
-            var maxDataPK = db.Table<Models.Data>().OrderByDescending(c => c.Id).FirstOrDefault();
-            Models.Data dataUser = new Models.Data()
+          //  var maxDataPK = db.Table<Models.Data>().OrderByDescending(c => c.Id).FirstOrDefault();
+           /* Models.Data dataUser = new Models.Data()
             {
                 Id = (maxDataPK == null ? 1 : maxDataPK.Id + 1),
                 SugarNow = 0
-            };
+            };*/
             Models.User user = new Models.User
             {
                 
@@ -102,14 +102,14 @@ namespace track.Views
 
 
             };
-            if (maxPK == null)
+       /*     if (maxPK == null)
                 dataUser.BindingId(1);
             else
-                dataUser.BindingId(maxPK.Id + 1);
-
+                dataUser.BindingId(maxPK.Id ); //+1
+            */
 
             db.Insert(user);
-            db.Insert(dataUser);
+           // db.Insert(dataUser);
             await DisplayAlert(null, user.Name + "with ID: " + user.Id + " successfully signed up!", "All right");
 
             await Navigation.PopAsync();

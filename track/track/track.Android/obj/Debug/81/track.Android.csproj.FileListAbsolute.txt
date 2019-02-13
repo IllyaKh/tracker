@@ -118,6 +118,7 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\res\drawable\log.png
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\res\drawable\settings.png
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\res\drawable\statistic.png
+C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\res\drawable\user.png
 C:\Users\Рабочий\Pictures\tracker\track\track\track\bin\Debug\netstandard2.0\track.dll
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\bin\Debug\track.dll.mdb
 C:\Users\Рабочий\Pictures\tracker\track\track\track.Android\obj\Debug\81\linksrc\track.dll.mdb

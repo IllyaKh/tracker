@@ -47,8 +47,8 @@ namespace track
                 {
                     var db = new SQLiteConnection(_dbPath);
                     var existingItem = db.Get<Models.User>(1);
-                    var test = db.Get<Models.Data>(1);
-                    await DisplayAlert("Admin Panel", existingItem.ToString()+" " + test.ToString(2) , "НУ ПОГНАЛИ");
+                   // var test = db.Get<Models.Data>(1);
+                    await DisplayAlert("Admin Panel", "Be careful here" , "All right!");
                     await Navigation.PushAsync(new AdminPage());
 
                 })

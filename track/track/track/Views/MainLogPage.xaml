@@ -7,15 +7,16 @@
 			 Icon="hamburger.png"
 			 Title="Personal Organiser">
     <StackLayout>
-        <Button  Clicked="Account_Clicked" Text="Sign in"  Margin="0,140,0,0"   BackgroundColor="#1c74da" FontSize="Small" TextColor="White" FontFamily="Times New Roman Italic" ></Button>
+        <Image x:Name="Image1" Margin="0,0,0,10" VerticalOptions="Start" WidthRequest ="250" HeightRequest="250" HorizontalOptions="FillAndExpand" Source="user.png"/>
+        <Button  Clicked="Account_Clicked" Text="My Account" BackgroundColor="#1c74da" FontSize="Small" TextColor="White" FontFamily="Times New Roman Italic" ></Button>
         <ListView x:Name="listView" x:FieldModifier="public">
             
             <ListView.ItemsSource>
            
                 <x:Array Type="{x:Type local:MasterPageItem}">
                     <local:MasterPageItem Title="Statistics" IconSource="statistic.png" TargetType="{x:Type local:Statistic}" />
-                    <local:MasterPageItem Title="Log" IconSource="history.png" TargetType="{x:Type local:Statistic}" />
-                    <local:MasterPageItem Title="Settings" IconSource="settings.png" TargetType="{x:Type local:Statistic}" />
+                    <local:MasterPageItem Title="Log" IconSource="history.png" TargetType="{x:Type local:Diagrams}" />
+                    <local:MasterPageItem Title="Settings" IconSource="settings.png" TargetType="{x:Type local:Settings}" />
                     
                 </x:Array>
             </ListView.ItemsSource>
@@ -25,22 +26,19 @@
                         <Grid  Padding="1,2">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="30"/>
-                                <ColumnDefinition Width="5*" />
+                                <ColumnDefinition Width="5*"/>
                             </Grid.ColumnDefinitions>
                             <Image WidthRequest="100" HeightRequest="100" Source="{Binding IconSource}" />
                             <Label FontSize="Large" TextColor="#696969" FontFamily="Times New Roman Italic 20 px" Grid.Column="1" Text="{Binding Title}" />
-                           
                         </Grid>
-                        
                     </ViewCell>
-
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
         <Label VerticalOptions="End" HorizontalOptions="Center" >
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="Exit"  FontSize="Micro" TextColor="#D8D8D8" >
+                    <Span Text="About us"  FontSize="Medium" TextColor="#D8D8D8" >
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding ClickCommand}"
                                       CommandParameter="https://xamarin.com" />
@@ -52,7 +50,7 @@
         <Label VerticalOptions="End" HorizontalOptions="Center" >
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="About Us "  FontSize="Micro" TextColor="#D8D8D8" >
+                    <Span Text="Exit"  FontSize="Medium" TextColor="#D8D8D8" >
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding ClickCommand}"
                                       CommandParameter="https://xamarin.com" />

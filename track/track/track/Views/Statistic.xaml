@@ -1,12 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="track.Views.Statistic">
+    
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <microcharts:ChartView x:Name="Sugar" HeightRequest="250" Margin="0,10,0,0"/>
+            <Picker x:Name="picker"  TextColor="Gray" Title="Choose youre type of insulin">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Meal</x:String>
+                        <x:String>Fast Insulin</x:String>
+                        <x:String>Physical activity</x:String>
+                        <x:String>Another</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+            </Picker>
+            <Slider  x:Name="SliderMain" Maximum="10" Minimum="3" Value="3"  ValueChanged="OnSliderValueChanged" ThumbColor="#1c74da" MaximumTrackColor="Gray" Margin="0,20,0,0" MinimumTrackColor="#1c74da"/>
+            <Label x:Name="displayLabel"
+               Text=""
+               HorizontalOptions="Center"
+                />
+
+            
+            <Button x:Name="but" Clicked="addPost" Text="Apply"  Margin="0,20,0,0" BackgroundColor="#1c74da" FontSize="Small" TextColor="White" FontFamily="Times New Roman Italic" WidthRequest="150"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

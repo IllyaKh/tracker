@@ -31,7 +31,7 @@ namespace track.Views
             _listView = new ListView();
             
             
-            _listView.ItemsSource = db.Table<Models.User>().OrderBy(user => user.Name).ToList().ToString();
+            _listView.ItemsSource = db.Table<Models.User>().OrderBy(user => user.Name).ToList();
             
             stackLayout.Children.Add(_listView);
             Content = stackLayout;
@@ -104,8 +104,6 @@ namespace track.Views
         {
             Models.User _user = new Models.User();
             var db = new SQLiteConnection(_dbPath);
-           
-
 
             db.Table<Models.User>().Delete(x => x.Id == _user.Id);
             await Navigation.PopAsync();

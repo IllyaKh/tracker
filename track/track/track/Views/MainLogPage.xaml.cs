@@ -30,7 +30,7 @@ namespace track
 
             var db = new SQLiteConnection(_dbPath);
 
-            await DisplayAlert("INFO", db.Get<Models.User>(LoginPage.curId).GetLogin() + " " + db.Get<Models.User>(LoginPage.curId).GetPassword(), "OK!");
+            await DisplayAlert("Hello, ", db.Get<Models.User>(LoginPage.curId).Name + db.Get<Models.User>(LoginPage.curId).Surname + "Your login: " + db.Get<Models.User>(LoginPage.curId).GetLogin() + "Your password: " + db.Get<Models.User>(LoginPage.curId).GetPassword(),"OK!");
         }
     }
 }

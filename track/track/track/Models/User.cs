@@ -13,6 +13,19 @@ namespace track.Models
         public string Surname { get; set; }
         public string Password { get; set; }
         public string Login { get; set; }
+        private string color = "#1c74da";
+        public string Coloro
+        {
+            get
+            {
+                return color;
+            }
+            set
+            {
+                color = value;
+            }
+        }
+        
 
         public override string ToString()
         {

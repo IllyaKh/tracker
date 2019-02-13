@@ -115,10 +115,6 @@ namespace track.Views
             else
                 await DisplayAlert("Error", "Login isn`t correct", "Retry");
 
-
-
-
-
         }
 
         public bool IsFull()
@@ -178,9 +174,6 @@ namespace track.Views
                 text[1] = "Your password hasn`t got A-Z and 1-0 symbols ";
                 return text;
             }
-
-
-
 
             return text;
         }

@@ -16,3 +16,5 @@ C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\MainPageD.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\Settings.xaml.g.cs
 C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\Statistic.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\AddSugar.xaml.g.cs
+C:\Users\Рабочий\Pictures\tracker\track\track\track\obj\Debug\netstandard2.0\Views\Diagrams.xaml.g.cs
